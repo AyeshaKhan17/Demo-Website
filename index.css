@@ -1,0 +1,155 @@
+html {
+    background-color: #FFE5CF;
+}
+
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 87%;
+
+}
+
+.header-container {
+    position: sticky;
+    top: 0;
+}
+
+img {
+    position: relative;
+    left: -10px;
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    padding-top: 20px;
+    color: #18330f;
+    background-size: cover;
+    padding-left: 20px;
+    background-color: #E1D7C6;
+    padding-bottom: 5px;
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding-right: 40px;
+}
+
+ul li {
+    flex: auto;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    border: 2px solid #697565;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3A6D8C;
+    transition-property: all;
+    transition-duration: 1s;
+
+
+}
+
+
+.navigation a:hover {
+    color: #E5E1DA;
+    background-color: #747264;
+
+}
+
+html,
+body {
+    padding: 30px;
+    margin: 0;
+}
+
+input {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #CDC2A5;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+
+h2,
+h3 {
+    margin: 0 0 .75em 0;
+}
+
+
+
+.container {
+    max-width: 750px;
+    margin: 20px auto 0 auto;
+    padding: 30px;
+    background-color: #EEE7DA;
+}
+
+.container h2 {
+    color: #295F98;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 10px;
+    color: #3A6D8C;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+
+.layout {
+    max-width: 1300px;
+    background-color: #EAE4DD;
+    margin: 40px auto 0 auto;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.main-column {
+    flex: 3;
+    order: 2;
+    background-color: #E2DAD6;
+    padding: 20px 20px;
+}
+
+.main-column h2 {
+    color: #295F98;
+}
+
+
+.sidebar-two {
+    flex: 1;
+    order: 1;
+    background-color: #F0EBE3;
+    padding: 20px 20px;
+
+}
+
+.sidebar-two h3 {
+    color: #3A6D8C;
+}
+
+footer {
+    text-align: center;
+    font-size: 89%;
+    color: #5d410a;
+}

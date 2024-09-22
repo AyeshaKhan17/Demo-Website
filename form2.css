@@ -1,0 +1,37 @@
+.column-layout {
+    display: flex;
+
+
+}
+
+.main-column {
+    background-color: rgb(240, 209, 170);
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.side-column1 {
+    background-color: blanchedalmond;
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.side-column2 {
+    background-color: rgb(246, 246, 209);
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.row-layout {
+    display: flex;
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+.row-layout input {
+    flex: 1;
+}
+
+.container {
+    background-color: antiquewhite;
+}

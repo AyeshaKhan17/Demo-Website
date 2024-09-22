@@ -1,0 +1,12 @@
+.container {
+    max-width: 1000px;
+
+}
+
+header {
+    background-color: #E8B86D;
+    padding: 20px 20px;
+    color: #18330f;
+    background-size: cover;
+    margin-bottom: 40px;
+}

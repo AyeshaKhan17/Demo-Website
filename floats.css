@@ -1,0 +1,139 @@
+html {
+    background-color: #FFE5CF;
+}
+
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 87%;
+
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 45;
+}
+
+header {
+    padding-top: 20px;
+    color: #18330f;
+    background-image: url(pic.jpeg);
+    background-size: cover;
+    padding-left: 20px;
+
+
+}
+
+/*Site navigation*/
+.site-nav li {
+    list-style: none;
+    float: left;
+
+}
+
+
+.site-nav {
+    margin-top: 20px;
+
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    display: block;
+    color: #13200e;
+    text-decoration: none;
+    border: 2px solid #697565;
+    padding: 20px 40px;
+    border-bottom: none;
+
+}
+
+.site-nav a:hover {
+    background-color: #AAB396;
+}
+
+
+header p {
+    margin: 0;
+}
+
+.nav2 ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.nav2 a {
+    display: block;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    background-image: url("sprite-sample.png");
+    text-indent: -9999px;
+}
+
+.parent {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ECDFCC;
+}
+
+.contentarea {
+    border-top: 3px solid #697565;
+    border-bottom: 3px solid #697565;
+}
+
+.para1 {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #AAB396;
+    background-image: linear-gradient(to right, #AAB396, #ECDFCC);
+
+}
+
+footer {
+    text-align: center;
+    font-size: 89%;
+    color: #CDC2A5;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .para1,
+    .sidebar {
+        width: auto;
+        float: none;
+    }
+}
